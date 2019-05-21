@@ -1,1 +1,47 @@
- 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+
+}
+
+body{
+  background: #fdfdfd;
+  font-family: tahoma;
+  font-size: 12px;
+}
+
+a{
+  color: #222;
+  text-decoration: none;
+}
+
+.wrapper{
+  width: 960px;
+ margin: 20px auto;
+}
+
+.wrapper .menu{
+  width: 100%;
+  background: #1ABC9C;
+  float:right;
+  border: 2px solid #16A085
+}
+
+.wrapper .menu ul li{
+  float: right;
+  list-style: none;
+}
+
+.wrapper .menu ul li a{
+  display: block;
+  padding: 20px;
+  color: #fff;
+}
+
+.wrapper .menu ul li a:hover{
+  background: #16A085
+}
